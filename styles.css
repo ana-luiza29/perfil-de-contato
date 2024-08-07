@@ -1,0 +1,28 @@
+|* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --text-color: white;
+    --bg-url: url(./assets/bg-mobile\ \(3\).png)
+    --stroke-color: rgba(255, 255, 255, 0.5 );
+    --surface-color: rgba(255, 255, 255, 0.005);
+    --surface-color-hover: rgba(0, 0, 0,  0.002);
+    --highlight-color: rgba(255, 255, 255, 0.2)
+    --switch-bg-url: url(./assests/moon-star.svg);
+    
+}
+.light {
+    --text-color: black;
+    --bg-url: url(./assets/bg-mobile-light.jpg)
+    --stroke-color: rgba( 0, 0, 0 , 0.5 );
+    --surface-color: rgba( 0, 0 , 0, 0.05);
+    --surface-color-hover: rgba(0, 0, 0,  0.02);
+    --highlight-color: rgba(0, 0, 0, 0.0)
+    --switch-bg-url: url(./assests/moon-star.svg);
+    
+
+}
