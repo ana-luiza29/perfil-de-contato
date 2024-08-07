@@ -7,12 +7,12 @@
 
 :root {
     --text-color: white;
-    --bg-url: url(./assets/bg-mobile\ \(3\).png)
+    --bg-url: url(./assets/bg-mobile.png) 
     --stroke-color: rgba(255, 255, 255, 0.5 );
     --surface-color: rgba(255, 255, 255, 0.005);
     --surface-color-hover: rgba(0, 0, 0,  0.002);
     --highlight-color: rgba(255, 255, 255, 0.2)
-    --switch-bg-url: url(./assests/moon-star.svg);
+    --switch-bg-url: url(./assests/moon-star.svgl.html);
     
 }
 .light {
@@ -25,4 +25,39 @@
     --switch-bg-url: url(./assests/sun.svg);
     
 
+}
+ body {
+   background: var(--bg-url) no repeat top center/cover;
+}
+
+body * {
+    font-family: "inter", Arial, sans-serif;
+    color:var(--text-color);
+}
+
+#container {
+    width: 100vw;
+    max-width: 588px;
+    margin: 56px auto 0px;
+}
+
+/*Profile */
+#progile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112PX;
+    border-radius: 100%;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+#profile span {
+    font-size: 12px
 }
