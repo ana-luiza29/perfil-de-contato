@@ -6,7 +6,6 @@
 
 :root {
   --text-color: white;
-  //--bg-url: url(./assets/bg-mobile.png);
   --bg-url: linear-gradient(43deg, #270135fb, #0B101E, #270135fb, #0B101E);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
@@ -17,7 +16,6 @@
 
 .light {
   --text-color: black;
-  /* --bg-url: url(./assets/bg-mobile-light.jpg); */
   --bg-url: linear-gradient(43deg, #CDC9F1, #FDFDFD, #FFFFFF, #9D93D6);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
@@ -27,7 +25,6 @@
 }
 
 body {
-  //background: var(--bg-url) no-repeat top center/cover;
   background: var(--bg-url);
 }
 
@@ -192,16 +189,10 @@ footer a:hover {
 /* Media Queries */
 @media(min-width:768px) {
   :root {
-    /* --bg-url: url(./assets/bg-desktop.png); */
-
-    ul li a ion-icon {
+     ul li a ion-icon {
       width: 25px;
       height: 25px;
     }
-  }
-
-  .light {
-    /* --bg-url: url(./assets/bg-desktop-light.jpg); */
   }
 }
 
